@@ -22,7 +22,7 @@
                 <h1 style="text-align:center;">COMBINADOR DE LETRAS</h1>
             </div>
             <div class="card-body">
-                <form action="{{ route('string.calculatorCombiner') }}" method="post">
+                <form action="{{ route('string.calculatorCombiner') }}" method="post" enctype="multipart/form-data">
                     @csrf
                     <div class="row g-3 align-items-center">
                         <div class="col-auto">
