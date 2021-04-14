@@ -22,12 +22,12 @@
             <div class="card-body">
                 <form>
                     <div class="row g-3 align-items-center">
-                        <label class="sr-only" for="inlineFormInput">Escriba la cadena de letras</label>
-                        <div class="col-3">
+                        <div class="col-4">
+                            <label class="sr-only" for="inlineFormInput">Escriba la cadena de letras</label>
                             <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Ejemplo: MFJNERJNRFKV">
                         </div>
-                        <label class="sr-only" for="inlineFormInputGroup">Ingrese el numero de letras de la palabra</label>
-                        <div class="col-2">
+                        <div class="col-4">
+                            <label class="sr-only" for="inlineFormInputGroup">Ingrese el numero de letras de la palabra</label>
                             <div class="input-group mb-2">
                                 <input type="number" class="form-control" id="inlineFormInputGroup">
                             </div>
