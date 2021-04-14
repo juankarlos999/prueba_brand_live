@@ -42,7 +42,6 @@ class CalculatorController extends Controller
         $nCr = $factorial_n / ($factorial_nr * $factorial_r);
 
         $listWords= new CombinerController();
-        $listWords->wordGenerator($nCr, $lengthWord);
-        return $listWords;
+        return $listWords->wordGenerator($nCr, $lengthWord);
     }
 }
