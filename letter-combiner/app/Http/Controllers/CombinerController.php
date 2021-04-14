@@ -30,8 +30,11 @@ class CombinerController extends Controller
             for($i=0;$i<$longitud;$i++){ 
                 shuffle($arr); // randomize the array
                 $arr = array_slice($arr, 0, 6); // get the first six (random) characters out
-                $str = implode('', $arr); // smush them back into a string
-                array_push($arrPassResult, $str);
+                $str = implode($arr); // smush them back into a string  
+            }
+            if(!in_array($str, $arrPassResult)){ 
+                array_push($arrPassResult, $str); 
+                $index++;
             }
         }
         return $arrPassResult; 
