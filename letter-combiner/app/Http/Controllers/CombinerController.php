@@ -22,6 +22,6 @@ class CombinerController extends Controller
                 $index++; 
             } 
         } 
-        return $tmp.' '.$aux.' '.$arrPassResult; 
+        return $tmp; 
     }  
 }
