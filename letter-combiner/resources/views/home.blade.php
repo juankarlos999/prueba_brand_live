@@ -39,7 +39,7 @@
                     </div>
                 </form>
 
-                <table class="table table-striped" class="row g-3 align-items-center">
+                <table class="table table-striped" class="table table-sm">
                     <thead>
                         <tr>
                             <th scope="col">#</th>
