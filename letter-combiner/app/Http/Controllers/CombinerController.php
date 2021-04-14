@@ -9,7 +9,7 @@ class CombinerController extends Controller
     function generarCodigos($cantidad=792, $longitud=7){ 
 
         $arrPassResult=array(); 
-        $arr = str_split('TJEUINGRTSDA'); // get all the characters into an array
+        $arr = str_split('TJEIRSA'); // get all the characters into an array
         $index=0; 
         while($index<$cantidad){ 
             for($i=0;$i<$longitud;$i++){ 
