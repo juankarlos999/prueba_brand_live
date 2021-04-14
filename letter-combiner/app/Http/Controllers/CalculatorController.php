@@ -43,6 +43,6 @@ class CalculatorController extends Controller
 
         $listWords= new CombinerController();
         $listWords->wordGenerator($nCr, $lengthWord);
-        return 'nCr = n! / (n-r)! r! '.$listWords;
+        return $listWords;
     }
 }
