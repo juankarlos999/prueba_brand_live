@@ -17,12 +17,12 @@ class CalculatorController extends Controller
     public function calculatorCombiner(Request $request)
     {
         // Formula for combinations: nCr = n! / (n-r)! r!
-        $num_letters = strlen($request->letters);
+        $letters = strlen($request->letters);
         $lengthWord = $request->lengthWord;
 
         //factorial n!
         $factorial_n = 1;
-        for ($x = $num_letters; $x >= 1; $x--) {
+        for ($x = $letters; $x >= 1; $x--) {
             $factorial_n = $factorial_n * $x;
         }
 
@@ -34,7 +34,7 @@ class CalculatorController extends Controller
 
         //factorial n-r!
         $factorial_nr = 1;
-        $n_r = $num_letters - $lengthWord;
+        $n_r = $letters - $lengthWord;
         for ($z = $n_r; $z >= 1; $z--) {
             $factorial_nr = $factorial_nr * $z;
         }
@@ -42,6 +42,6 @@ class CalculatorController extends Controller
         $nCr = $factorial_n / ($factorial_nr * $factorial_r);
 
         $listWords= new CombinerController();
-        return $listWords->wordGenerator($nCr, $lengthWord);
+        return $listWords->wordGenerator($nCr, $lengthWord, $letters);
     }
 }

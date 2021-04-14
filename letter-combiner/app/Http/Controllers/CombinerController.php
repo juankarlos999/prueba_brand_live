@@ -6,10 +6,10 @@ use Illuminate\Http\Request;
 
 class CombinerController extends Controller
 {
-    function wordGenerator($numCombinations, $wordLength){ 
+    function wordGenerator($numCombinations, $wordLength, $letters){ 
 
         $arrPassResult=array(); 
-        $arr = str_split('TJEUINGRTSDA'); // get all the characters into an array
+        $arr = str_split($letters); // get all the characters into an array
         $aux=array();
         $index=0; 
         while($index<$numCombinations){ 
