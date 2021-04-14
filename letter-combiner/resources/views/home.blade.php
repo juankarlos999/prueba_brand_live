@@ -17,7 +17,7 @@
     <div class="container">
         <div class="card">
             <div class="card-header">
-                <h1 style="text-align:center;">CONBINADOR DE LETRAS</h1>
+                <h1 style="text-align:center;">COMBINADOR DE LETRAS</h1>
             </div>
             <div class="card-body">
                 <form>
@@ -35,7 +35,7 @@
 
                     </div>
                     <div class="col-auto">
-                        <button type="submit" class="btn btn-primary mb-2">Calcular conbinaciones</button>
+                        <button type="submit" class="btn btn-primary mb-2">Calcular combinaciones</button>
                     </div>
                 </form>
 
