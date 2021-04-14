@@ -14,10 +14,11 @@ class CombinerController extends Controller
         while($index<$cantidad){ 
             $tmp=array(); 
             for($i=0;$i<$longitud;$i++){ 
-                $tmp=$caracteres[rand(0,strlen($caracteres)-1)]; 
+                array_push($tmp, $caracteres[rand(0,strlen($caracteres)-1)]);
+                $aux = implode($tmp);
             } 
             if(!in_array($tmp, $arrPassResult)){ 
-                $arrPassResult[]=$tmp; 
+                array_push($arrPassResult,$aux); 
                 $index++; 
             } 
         } 
