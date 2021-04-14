@@ -14,7 +14,7 @@ class CombinerController extends Controller
         while($index<$cantidad){ 
             $tmp=""; 
             for($i=0;$i<$longitud;$i++){ 
-                $tmp.=$caracteres[rand(0,strlen($caracteres)-1)]; 
+                $tmp=$caracteres[rand(0,strlen($caracteres)-1)]; 
             } 
             if(!in_array($tmp, $arrPassResult)){ 
                 $arrPassResult[]=$tmp; 
