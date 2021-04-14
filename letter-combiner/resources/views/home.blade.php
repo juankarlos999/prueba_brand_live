@@ -32,7 +32,7 @@
                         <div class="col-auto">
                             <label class="sr-only" for="inlineFormInputGroup">Ingrese el numero de letras de la palabra</label>
                             <div class="input-group mb-2">
-                                <input type="number" class="form-control" id="inlineFormInputGroup">
+                                <input type="number" class="form-control" id="inlineFormInputGroup" name="lengthWord">
                             </div>
                         </div>
                     </div>
