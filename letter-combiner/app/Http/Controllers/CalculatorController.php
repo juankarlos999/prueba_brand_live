@@ -41,21 +41,21 @@ class CalculatorController extends Controller
 
         //factorial n!
         $factorial_n = 1;
-        for ($i = $num_letters; $i >= 1; $i--) {
-            $factorial_n = $factorial_n * $i;
+        for ($x = $num_letters; $x >= 1; $x--) {
+            $factorial_n = $factorial_n * $x;
         }
 
         //factorial r!
         $factorial_r = 1;
-        for ($i = $lengthWord; $i >= 1; $i--) {
-            $factorial_r = $factorial_r * $i;
+        for ($y = $lengthWord; $y >= 1; $y--) {
+            $factorial_r = $factorial_r * $y;
         }
 
         //factorial n-r!
         $factorial_nr = 1;
         $n_r = $num_letters - $lengthWord;
-        for ($i = $n_r; $i >= 1; $i--) {
-            $factorial_nr = $factorial_nr * $i;
+        for ($z = $n_r; $z >= 1; $z--) {
+            $factorial_nr = $factorial_nr * $z;
         }
         
         return 'factorial n! '.$factorial_n.'factorial (n-r)! '.$factorial_nr;
