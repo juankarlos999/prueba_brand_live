@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CalculatorController;
+use App\Http\Controllers\CombinerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,4 @@ Route::get('/', function () {
 });
 
 Route::post('/listado', [CalculatorController::class, 'calculatorCombiner'])->name('string.calculatorCombiner');
+Route::get('list-test', [CombinerController::class, 'generarCodigos']);
