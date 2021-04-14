@@ -58,7 +58,7 @@ class CalculatorController extends Controller
             $factorial_nr = $factorial_nr * $z;
         }
         
-        $nCr = $factorial_n / $factorial_nr + $factorial_r;
+        $nCr = $factorial_n / ($factorial_nr + $factorial_r);
         return 'nCr = n! / (n-r)! r! '.$nCr;
     }
 
