@@ -14,26 +14,32 @@
 </head>
 
 <body class="antialiased">
-    <div class="container">
-        <form>
-            <div class="form-row align-items-center">
-                <div class="col-auto">
-                    <label class="sr-only" for="inlineFormInput">Escriba la cadena de letras</label>
-                    <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Ejemplo: MFJNERJNRFKV">
-                </div>
-                <div class="col-auto">
-                    <label class="sr-only" for="inlineFormInputGroup">Ingrese el numero de letras de la palabra</label>
-                    <div class="input-group mb-2">
-                        <input type="number" class="form-control" id="inlineFormInputGroup">
-                    </div>
-                </div>
+    <div class="card">
+        <div class="card-header">
+            CONBINADOR DE LETRAS
+        </div>
+        <div class="card-body">
+            <div class="container">
+                <form>
+                    <div class="form-row align-items-center">
+                        <div class="col-auto">
+                            <label class="sr-only" for="inlineFormInput">Escriba la cadena de letras</label>
+                            <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Ejemplo: MFJNERJNRFKV">
+                        </div>
+                        <div class="col-auto">
+                            <label class="sr-only" for="inlineFormInputGroup">Ingrese el numero de letras de la palabra</label>
+                            <div class="input-group mb-2">
+                                <input type="number" class="form-control" id="inlineFormInputGroup">
+                            </div>
+                        </div>
 
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary mb-2">Calcular conbinaciones</button>
+                    </div>
             </div>
-            <div class="col-auto">
-                <button type="submit" class="btn btn-primary mb-2">Calcular conbinaciones</button>
-            </div>
-    </div>
-    </form>
+            </form>
+        </div>
     </div>
 </body>
 
