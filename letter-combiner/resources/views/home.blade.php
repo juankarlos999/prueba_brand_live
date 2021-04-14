@@ -17,7 +17,7 @@
     <div class="container">
         <div class="card">
             <div class="card-header">
-                <h1>CONBINADOR DE LETRAS</h1>
+                <h1 style="text-align:center;">CONBINADOR DE LETRAS</h1>
             </div>
             <div class="card-body">
                 <form>
@@ -42,8 +42,8 @@
                 <table class="table table-striped table-sm">
                     <thead>
                         <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Palabras sugeridas</th>
+                            <th scope="col" style="text-align:center; width:50px;">#</th>
+                            <th scope="col" style="text-align:center; width:150px;">Palabras sugeridas</th>
                         </tr>
                     </thead>
                     <tbody>
