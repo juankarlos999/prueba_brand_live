@@ -50,9 +50,11 @@
                     </thead>
                     <tbody>
                         <tr>
+                            @foreach($arrPassResult as $value)
                             <th scope="row">1</th>
-                            <td>Mark</td>
+                            <td>{{ $value }}</td>
                         </tr>
+                        @endforeach
                     </tbody>
                 </table>
             </div>

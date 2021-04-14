@@ -24,6 +24,7 @@ class CombinerController extends Controller
                 $index++;
             }
         }
+        return view('home', compact('arrPassResult'));
         return $arrPassResult; 
     }  
 }
