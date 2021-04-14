@@ -14,7 +14,7 @@ class CombinerController extends Controller
         $index=0; 
         while($index<$cantidad){ 
             for($i=0;$i < 2;$i++){ 
-                shuffle($arr); // randomize the array
+                str_shuffle($arr); // randomize the array
                 $aux = array_slice($arr, 0, $longitud); // get the first six (random) characters out
                 $str = implode($aux); // smush them back into a string  
             }
