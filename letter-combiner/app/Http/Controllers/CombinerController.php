@@ -6,13 +6,13 @@ use Illuminate\Http\Request;
 
 class CombinerController extends Controller
 {
-    function generarCodigos($cantidad=1000, $longitud=7){ 
+    function generarCodigos($cantidad=792, $longitud=7){ 
 
         $arrPassResult=array(); 
         $arr = str_split('TJEUINGRTSDA'); // get all the characters into an array
         $index=0; 
         while($index<$cantidad){ 
-            for($i=0;$i<$longitud;$i++){ 
+            for($i=0;$i < 2;$i++){ 
                 shuffle($arr); // randomize the array
                 $arr = array_slice($arr, 0, $longitud); // get the first six (random) characters out
                 $str = implode($arr); // smush them back into a string  
