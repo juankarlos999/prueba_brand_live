@@ -16,7 +16,7 @@
 <body class="antialiased">
     <div class="container">
         <div class="card">
-            <div class="card-header" class="align-items-center">
+            <div class="card-header">
                 <h1>CONBINADOR DE LETRAS</h1>
             </div>
             <div class="card-body">
@@ -39,7 +39,7 @@
                     </div>
                 </form>
 
-                <table class="table table-striped" class="table table-sm">
+                <table class="table table-sm">
                     <thead>
                         <tr>
                             <th scope="col">#</th>
