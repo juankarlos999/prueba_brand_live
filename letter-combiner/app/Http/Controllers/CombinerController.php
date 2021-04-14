@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class CombinerController extends Controller
 {
-    function generarCodigos($cantidad=792, $longitud=7){ 
+    function generarCodigos($cantidad=7, $longitud=7){ 
         $caracteres = "TJEUINGRTSDA"; 
          
         $arrPassResult=array(); 
