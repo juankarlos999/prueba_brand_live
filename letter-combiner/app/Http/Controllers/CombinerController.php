@@ -12,7 +12,7 @@ class CombinerController extends Controller
         $arrPassResult=array(); 
         $index=0; 
         while($index<$cantidad){ 
-            $tmp=""; 
+            $tmp=array(); 
             for($i=0;$i<$longitud;$i++){ 
                 $tmp=$caracteres[rand(0,strlen($caracteres)-1)]; 
             } 
