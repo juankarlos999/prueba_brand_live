@@ -32,7 +32,6 @@
                                 <input type="number" class="form-control" id="inlineFormInputGroup">
                             </div>
                         </div>
-
                     </div>
                     <div class="col-auto">
                         <button type="submit" class="btn btn-primary mb-2">Calcular combinaciones</button>
