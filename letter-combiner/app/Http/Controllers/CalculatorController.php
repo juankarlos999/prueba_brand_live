@@ -3,29 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\CombinerController;
 
 class CalculatorController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
-
     /**
      * Algorithm that processes the number of possible combinations with the 
      * given letters.
@@ -59,40 +40,9 @@ class CalculatorController extends Controller
         }
         
         $nCr = $factorial_n / ($factorial_nr * $factorial_r);
-        return 'nCr = n! / (n-r)! r! '.$nCr;
-    }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
+        $listWords= new CombinerController();
+        $listWords->wordGenerator($nCr, $lengthWord);
+        return 'nCr = n! / (n-r)! r! '.$listWords;
     }
 }
