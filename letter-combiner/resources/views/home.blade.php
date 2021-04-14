@@ -39,17 +39,17 @@
                     </div>
                 </form>
 
-                <table class="table table-striped" cellspacing="0" width="100%">
+                <table class="table table-striped table-sm">
                     <thead>
                         <tr>
-                            <th scope="col" style="width:10px;">#</th>
-                            <th scope="col" style="width:50px;">Palabras sugeridas</th>
+                            <th scope="col">#</th>
+                            <th scope="col">Palabras sugeridas</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row" style="width:10px;">1</th>
-                            <td style="width:50px;">Mark</td>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
                         </tr>
                     </tbody>
                 </table>
