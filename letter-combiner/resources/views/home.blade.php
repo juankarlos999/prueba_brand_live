@@ -27,7 +27,7 @@
                     <div class="row g-3 align-items-center">
                         <div class="col-auto">
                             <label class="sr-only" for="inlineFormInput">Escriba la cadena de letras</label>
-                            <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Ejemplo: MFJNERJNRFKV" name="string">
+                            <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Ejemplo: MFJNERJNRFKV" name="letters">
                         </div>
                         <div class="col-auto">
                             <label class="sr-only" for="inlineFormInputGroup">Ingrese el numero de letras de la palabra</label>
