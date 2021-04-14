@@ -12,15 +12,15 @@ class CombinerController extends Controller
         $arrPassResult=array(); 
         $index=0; 
         while($index<$cantidad){ 
-            $tmp=array(); 
+            $tmp=""; 
             for($i=0;$i<$longitud;$i++){ 
-                array_push($tmp, $caracteres[rand(0,strlen($caracteres)-1)]); 
+                $tmp=$caracteres[rand(0,strlen($caracteres)-1)]; 
             } 
             if(!in_array($tmp, $arrPassResult)){ 
                 $arrPassResult[]=$tmp; 
                 $index++; 
             } 
         } 
-        return $tmp.'    '.$arrPassResult; 
+        return $arrPassResult; 
     }  
 }
