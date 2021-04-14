@@ -14,12 +14,12 @@
 </head>
 
 <body class="antialiased">
-    <div class="card">
-        <div class="card-header" class="align-items-center">
-            <h1>CONBINADOR DE LETRAS</h1>
-        </div>
-        <div class="card-body">
-            <div class="container">
+    <div class="container">
+        <div class="card">
+            <div class="card-header" class="align-items-center">
+                <h1>CONBINADOR DE LETRAS</h1>
+            </div>
+            <div class="card-body">
                 <form>
                     <div class="row g-3 align-items-center">
                         <div class="col-auto">
@@ -37,23 +37,23 @@
                     <div class="col-auto">
                         <button type="submit" class="btn btn-primary mb-2">Calcular conbinaciones</button>
                     </div>
-            </div>
-            </form>
+                </form>
 
-            <table class="table table-striped">
-                <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Palabras sugeridas</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                    </tr>
-                </tbody>
-            </table>
+                <table class="table table-striped" class="row g-3 align-items-center">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Palabras sugeridas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 </body>
