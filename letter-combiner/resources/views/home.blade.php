@@ -4,6 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>Laravel</title>
 
@@ -20,11 +22,12 @@
                 <h1 style="text-align:center;">COMBINADOR DE LETRAS</h1>
             </div>
             <div class="card-body">
-                <form>
+                <form action="{{ route('string.calculatorCombiner') }}" method="post">
+                    @csrf
                     <div class="row g-3 align-items-center">
                         <div class="col-auto">
                             <label class="sr-only" for="inlineFormInput">Escriba la cadena de letras</label>
-                            <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Ejemplo: MFJNERJNRFKV">
+                            <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Ejemplo: MFJNERJNRFKV" name="string">
                         </div>
                         <div class="col-auto">
                             <label class="sr-only" for="inlineFormInputGroup">Ingrese el numero de letras de la palabra</label>
