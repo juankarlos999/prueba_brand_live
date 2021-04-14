@@ -9,32 +9,32 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
 </head>
 
 <body class="antialiased">
-    <form>
-        <div class="form-row align-items-center">
-            <div class="col-auto">
-                <label class="sr-only" for="inlineFormInput">Name</label>
-                <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
-            </div>
-            <div class="col-auto">
-                <label class="sr-only" for="inlineFormInputGroup">Username</label>
-                <div class="input-group mb-2">
-                    <div class="input-group-prepend">
-                        <div class="input-group-text">@</div>
-                    </div>
-                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+    <div class="container">
+        <form>
+            <div class="form-row align-items-center">
+                <div class="col-auto">
+                    <label class="sr-only" for="inlineFormInput">Escriba la cadena de letras</label>
+                    <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
                 </div>
-            </div>
+                <div class="col-auto">
+                    <label class="sr-only" for="inlineFormInputGroup">Ingrese el numero de letras de la palabra</label>
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                    </div>
+                </div>
 
-        </div>
-        <div class="col-auto">
-            <button type="submit" class="btn btn-primary mb-2">Submit</button>
-        </div>
-        </div>
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-2">Calcular conbinaciones</button>
+            </div>
+    </div>
     </form>
+    </div>
 </body>
 
 </html>
