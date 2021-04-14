@@ -27,23 +27,22 @@ class CalculatorController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
+     * Algorithm that processes the number of possible combinations with the 
+     * given letters.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
     public function calculatorCombiner(Request $request)
     {
-        /*$inputString = $request->letters;
-        $lengthWord = $request->lengthWord;
-        $lengthString = strlen($inputString);
-
-        $num = 4;
+        // Formula for combinations: nCr = n! / (n-r)! * r!
+        $n = strlen($request->letters);
+        $r = $request->lengthWord;
         $factorial = 1;
-        for ($x = $num; $x >= 1; $x--) {
-            $factorial = $factorial * $x;
-        }*/
-        return strlen($request->letters).' '.$request->lengthWord;
+        for ($i = $n; $i >= 1; $i--) {
+            $factorial = $factorial * $i;
+        }
+        return $factorial;
     }
 
     /**
