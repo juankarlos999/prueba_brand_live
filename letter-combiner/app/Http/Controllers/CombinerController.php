@@ -10,12 +10,13 @@ class CombinerController extends Controller
 
         $arrPassResult=array(); 
         $arr = str_split('TJEUINGRTSDA'); // get all the characters into an array
+        $aux=array();
         $index=0; 
         while($index<$cantidad){ 
             for($i=0;$i < 2;$i++){ 
                 shuffle($arr); // randomize the array
-                $arr = array_slice($arr, 0, $longitud); // get the first six (random) characters out
-                $str = implode($arr); // smush them back into a string  
+                $aux = array_slice($arr, 0, $longitud); // get the first six (random) characters out
+                $str = implode($aux); // smush them back into a string  
             }
             if(!in_array($str, $arrPassResult)){ 
                 array_push($arrPassResult, $str); 
