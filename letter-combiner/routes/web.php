@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::post('listado', [CalculatorController::class, 'calculatorCombiner'])->name('string.calculatorCombiner');
+Route::post('/listado', [CalculatorController::class, 'calculatorCombiner'])->name('string.calculatorCombiner');
