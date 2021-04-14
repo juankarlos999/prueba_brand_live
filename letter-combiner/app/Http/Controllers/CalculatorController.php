@@ -34,9 +34,9 @@ class CalculatorController extends Controller
      */
     public function calculatorCombiner(Request $request)
     {
-        $inputString = $request->letters;
+        // $inputString = $request->letters;
 
-        return strlen($inputString);
+        return $request;
     }
 
     /**
