@@ -43,7 +43,7 @@ class CalculatorController extends Controller
         for ($x = $num; $x >= 1; $x--) {
             $factorial = $factorial * $x;
         }*/
-        return strlen($request->letters) . ' ' . $request->lengthWord;
+        return strlen($request->letters);
     }
 
     /**
