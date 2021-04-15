@@ -40,7 +40,7 @@
                         <button type="submit" class="btn btn-primary mb-2">Calcular combinaciones</button>
                     </div>
                 </form>
-
+                @isset($arrPassResult)
                 <table class="table table-striped table-sm">
                     <thead>
                         <tr>
@@ -50,7 +50,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            @isset($arrPassResult)
+                            
                             @foreach($arrPassResult as $value)
                             <th scope="row">{{ $loop->iteration }}</th>
                                 <td>{{ $value }}</td>
