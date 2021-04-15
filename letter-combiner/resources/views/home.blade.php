@@ -2,8 +2,7 @@
 @section('content')
 <div class="container">
     <div class="card">
-        <div class="jumbotron jumbotron-fluid">
-            <h1 style="text-align:center;" class="display-4">COMBINADOR DE LETRAS</h1>
+        <div class="card-header">
         </div>
         <div class="card-body">
             <form action="{{ route('string.calculatorCombiner') }}" method="post" enctype="multipart/form-data">
@@ -21,7 +20,7 @@
                     </div>
                 </div>
                 <div class="col-auto">
-                    <button type="submit" class="btn btn-primary btn-lg">Calcular combinaciones</button>
+                    <button type="submit" class="btn btn-primary mb-2">Calcular combinaciones</button>
                 </div>
             </form>
 
