@@ -51,8 +51,8 @@
                     <tbody>
                         <tr>
                             @isset($arrPassResult)
-                            @foreach($arrPassResult as $value)
-                            <th scope="row">1</th>
+                            @foreach($arrPassResult as $value)                
+                            <th scope="row"><ol><li></li></ol></th>
                             <td>{{ $value }}</td>
                         </tr>
                         @endforeach
