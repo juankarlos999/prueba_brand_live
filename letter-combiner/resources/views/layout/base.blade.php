@@ -24,14 +24,26 @@
             box-shadow: -1px 17px 9px -12px rgba(0, 0, 0, 0.30);
             margin: 20px;
         }
+
+        img {
+            width: 12%;
+        }
+
+        nav {
+            background-color: #1693eb;
+        }
+        h1{
+            color: whitesmoke;
+            text-align: justify;
+        }
     </style>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-dark" style="background-color: #1693eb">
-            <img src="/img/letters.svg"/>
-            <h1 class="display-4" style="color: whitesmoke; text-align:center;">COMBINADOR DE LETRAS</h1>
+        <nav>
+            <img src="/img/letters.svg" />
+            <h1 class="display-5">COMBINADOR DE LETRAS</h1>
         </nav>
     </header>
     @yield('content')
