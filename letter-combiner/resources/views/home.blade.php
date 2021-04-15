@@ -1,4 +1,4 @@
-@extends('layouts.base')
+@extends('layout.base')
 @section('content')
 <div class="container">
     <div class="card">
