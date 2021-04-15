@@ -29,8 +29,6 @@
 
         img {
             width: 12%;
-            margin-top: 5%;
-            margin-left: 5%;
         }
 
         h1 {
