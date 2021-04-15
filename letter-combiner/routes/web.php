@@ -3,8 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CalculatorController;
 use App\Http\Controllers\CombinerController;
-use Illuminate\Pagination\Paginator;
-use Illuminate\Support\Facades\Input;
 use Illuminate\Pagination\LengthAwarePaginator;
 
 /*
@@ -22,11 +20,5 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::post('listado', [CalculatorController::class, 'calculatorCombiner'], function () {
-    $page = Input::get('page');
-    $posts = range(1, 50);
-    $posts = new LengthAwarePaginator($posts, $total = 50, 10, $page);
-    $posts->setPath('listado');
-    return view('pagination')->withPosts($posts);
-})->name('string.calculatorCombiner');
+Route::post('listado', [CalculatorController::class, 'calculatorCombiner'])->name('string.calculatorCombiner');
 Route::get('list-test', [CombinerController::class, 'generarCodigos']);
