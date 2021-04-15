@@ -2,7 +2,7 @@
 @section('content')
 <div class="card">
     <div class="card-header">
-    <h3>Por favor ingrese los siguientes datos</h3>
+        <h3>Por favor ingrese los siguientes datos</h3>
     </div>
     <div class="card-body">
         <form action="{{ route('string.calculatorCombiner') }}" method="post" enctype="multipart/form-data">

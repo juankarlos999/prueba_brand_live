@@ -35,7 +35,7 @@
 
         h1 {
             color: whitesmoke;
-            text-align: justify;
+            text-align: center;
         }
     </style>
 </head>
@@ -44,7 +44,7 @@
     <div class="container">
         <header>
             <nav>
-                <img src="/img/letters.svg" />
+                <img src="/img/letters.svg"/>
                 <h1 class="display-5">COMBINADOR DE LETRAS</h1>
             </nav>
         </header>
