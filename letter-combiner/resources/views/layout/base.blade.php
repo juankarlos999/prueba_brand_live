@@ -24,8 +24,8 @@
 <body>
     <header>
         <nav class="navbar navbar-dark" style="background-color: #1693eb">
-            <img src="img/letters.svg" width="100" height="80" />
-            <h1 class="display-5" style="color: whitesmoke">COMBINADOR DE LETRAS</h1>
+            <img src="/resources/img/letters.svg" width="100" height="80" />
+            <h1 class="display-5" style="color: whitesmoke; text-align:center;">COMBINADOR DE LETRAS</h1>
         </nav>
     </header>
     @yield('content')
