@@ -2,7 +2,7 @@
 @section('content')
 <div class="container">
     <div class="card">
-        <div class="card-header">
+        <div class="jumbotron jumbotron-fluid">
             <h1 style="text-align:center;" class="display-4">COMBINADOR DE LETRAS</h1>
         </div>
         <div class="card-body">
