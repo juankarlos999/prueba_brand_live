@@ -35,8 +35,7 @@
 
         h1 {
             color: whitesmoke;
-            text-align: center;
-            margin-bottom: 20px;
+            text-align: right;
         }
     </style>
 </head>
