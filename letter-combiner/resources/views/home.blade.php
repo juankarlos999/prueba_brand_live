@@ -9,11 +9,11 @@
             @csrf
             <div class="row g-3 align-items-center">
                 <div class="col-auto">
-                    <label class="sr-only" for="inlineFormInput">lista de letras</label>
+                    <label for="inlineFormInput">lista de letras</label>
                     <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Ejemplo: MFJNERJNRFKV" name="letters">
                 </div>
                 <div class="col-auto">
-                    <label class="sr-only" for="inlineFormInputGroup">Numero de campos de la palabra</label>
+                    <label for="inlineFormInputGroup">Numero de campos de la palabra</label>
                     <div class="input-group mb-2">
                         <input type="number" class="form-control" id="inlineFormInputGroup" name="lengthWord">
                     </div>
