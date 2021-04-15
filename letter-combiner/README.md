@@ -12,6 +12,7 @@ Antes de comenzar, es importante considerar los siguientes programas para ejecut
   - Composer version 2.0.8
   - Git
   - Server version: Apache/2.4.41 (Ubuntu)
+  - El despliegue se realizo en un servidor facilitado por los servicios de Heroku. 
 
 
 # start 🚀
