@@ -58,7 +58,6 @@
                         @endforeach
                     </tbody>
                 </table>
-                {{ $arrPassResult->links()}}
                 @endisset
             </div>
         </div>
