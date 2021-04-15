@@ -1,53 +1,46 @@
 # prueba_brand_live ⚡️
 ## URL test http://prueba-brand-live.herokuapp.com/
-## API COMBINADOR DE LETRAS
+## COMBINADOR DE LETRAS
 
-This project solves the problem of calculating the total cost of the trip by a route with precision.
-This problem already occurs due to the lack of information, therefore the project provides the solution to the
-development of an API Rest that performs the calculation of costs incurred on a journey that includes expenses
-fixed and variable as well as the costs incurred in tolls according to the route.
+La página tiene como propósito ser una ayuda para los jugadores del juego DrawSomthing para celulares al tomar las 12 letras que aparecen y el número de letras que conforman la palabra que debe adivinar. Al recibir esta información, aparecerán todas las posibles combinaciones de palabras, para que nuestro usuario pueda utilizarlas en su juego y gane.
 
-In order to see the operation of this API, swagger will be used where the documentation will be. There you can
-interact and find the route that suits you best.
-![](img/docs.png)
 
-Within the documentation will be the specification of which parameters will have to be passed to see
-an exact result and as you wish. The following JSON is the result we hope to deliver on time
-to request our service.
-
-The following resources were needed for the development of this project:
+Se necesitaron los siguientes recursos para el desarrollo de este proyecto:
 
 ---
 
-### pre-requisite
-Before starting, it is important to consider the following programs in order to execute the project
+### requisito previo
+Antes de comenzar, es importante considerar los siguientes programas para ejecutar el proyecto:
   - Composer version 2.0.8
   - Git
   - Server version: Apache/2.4.41 (Ubuntu)
 
-# start 🚀
-To be able to run the application and use it in a local development environment you can follow
-the following steps:
 
-Clone the repository to have the local project:
+# start 🚀
+Para poder ejecutar la aplicación y utilizarla en un entorno de desarrollo local, puede seguir
+los siguientes pasos:
+
+
+Clona el repositorio para tener el proyecto local:
 ```
 https://github.com/juankarlos999/prueba_brand_live.git
 ```
 
-The dependencies are going to be installed inside the container, keep in mind that the containers
-are designed to work in development mode, if desired change the mode you need to edit the
-docker-compose and replace the following line
+
+En el siguiente enlace podra seguir el tutorial para instalar Composer
 ```
 https://symfony.es/documentacion/guia-de-instalacion-de-composer/
 ```
 
-### Built with 🛠️
-The core language used to develop the application is
+
+### Construido con 🛠️
+El lenguaje principal utilizado para desarrollar la aplicación es:
 - PHP 7.4.3
+
 
 Frameworks:
 - Laravel 8
 
 
-### author 🗒
-- Juan Carlos Rengifo
+### autor 🗒
+- Juan Rengifo.
