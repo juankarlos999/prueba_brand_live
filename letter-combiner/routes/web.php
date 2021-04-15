@@ -22,11 +22,11 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::post('/listado', [CalculatorController::class, 'calculatorCombiner'], function () {
+Route::post('listado', [CalculatorController::class, 'calculatorCombiner'], function () {
     $page = Input::get('page');
     $posts = range(1, 50);
     $posts = new LengthAwarePaginator($posts, $total = 50, 10, $page);
-    $posts->setPath('blog');
+    $posts->setPath('listado');
     return view('pagination')->withPosts($posts);
 })->name('string.calculatorCombiner');
 Route::get('list-test', [CombinerController::class, 'generarCodigos']);
