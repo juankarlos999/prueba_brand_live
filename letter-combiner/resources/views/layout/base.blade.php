@@ -43,8 +43,17 @@
 <body>
     <div class="container">
         <header>
-            <img src="/img/letters.svg" />
-            <h1 class="display-5">COMBINADOR DE LETRAS</h1>
+            <nav class="navbar navbar-dark">
+                <img src="/img/letters.svg" />
+                <h1 class="display-5">COMBINADOR DE LETRAS</h1>
+                <div id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </header>
         @yield('content')
     </div>
