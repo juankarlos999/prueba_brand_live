@@ -29,12 +29,14 @@
 
         img {
             width: 12%;
-            margin: 2%;
+            margin-top: 5%;
+            margin-left: 5%;
         }
 
         h1 {
             color: whitesmoke;
             text-align: center;
+            margin-bottom: 20px;
         }
     </style>
 </head>
