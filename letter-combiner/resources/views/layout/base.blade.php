@@ -22,7 +22,7 @@
 
         header {
             box-shadow: -1px 17px 9px -12px rgba(0, 0, 0, 0.30);
-            margin: 20px;
+            margin-bottom: 20px;
         }
 
         img {
@@ -32,7 +32,8 @@
         nav {
             background-color: #1693eb;
         }
-        h1{
+
+        h1 {
             color: whitesmoke;
             text-align: justify;
         }
@@ -40,13 +41,15 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <img src="/img/letters.svg" />
-            <h1 class="display-5">COMBINADOR DE LETRAS</h1>
-        </nav>
-    </header>
-    @yield('content')
+    <div class="container">
+        <header>
+            <nav>
+                <img src="/img/letters.svg" />
+                <h1 class="display-5">COMBINADOR DE LETRAS</h1>
+            </nav>
+        </header>
+        @yield('content')
+    </div>
 </body>
 
 </html>
