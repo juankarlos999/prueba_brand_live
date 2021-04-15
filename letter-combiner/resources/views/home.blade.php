@@ -56,10 +56,10 @@
                                 <td>{{ $value }}</td>
                         </tr>
                         @endforeach
-                        @endisset
                     </tbody>
                 </table>
-                {{ $arrPassResult->link()}}
+                {{ $arrPassResult->links()}}
+                @endisset
             </div>
         </div>
     </div>
