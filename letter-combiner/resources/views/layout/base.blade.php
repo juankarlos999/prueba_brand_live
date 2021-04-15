@@ -16,12 +16,12 @@
     <!-- Style -->
     <style>
         body {
-            background-color: #4CAEF0;
+            background-color: #D1F2EB;
         }
     </style>
 </head>
 
-<body class="antialiased">
+<body>
     @yield('content')
 </body>
 
