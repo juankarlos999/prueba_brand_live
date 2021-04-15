@@ -2,10 +2,8 @@
 ## URL test http://prueba-brand-live.herokuapp.com/
 ## COMBINADOR DE LETRAS
 
-La página tiene como propósito ser una ayuda para los jugadores del juego DrawSomthing para celulares al tomar las 12 letras que aparecen y el número de letras que conforman la palabra que debe adivinar. Al recibir esta información, aparecerán todas las posibles combinaciones de palabras, para que nuestro usuario pueda utilizarlas en su juego y gane.
-
-
-Se necesitaron los siguientes recursos para el desarrollo de este proyecto:
+La página tiene como propósito ser una ayuda para los jugadores del juego DrawSomthing para celulares al tomar las 12 letras que aparecen y el número de letras que conforman la palabra que debe adivinar.
+Al recibir esta información, aparecerán todas las posibles combinaciones de palabras, para que nuestro usuario pueda utilizarlas en su juego y gane.
 
 ---
 
