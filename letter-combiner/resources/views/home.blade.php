@@ -59,6 +59,7 @@
                         @endisset
                     </tbody>
                 </table>
+                {{ $arrPassResult->links()}}
             </div>
         </div>
     </div>
