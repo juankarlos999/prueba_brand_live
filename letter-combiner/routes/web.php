@@ -21,4 +21,3 @@ Route::get('/', function () {
 });
 
 Route::post('listado', [CalculatorController::class, 'calculatorCombiner'])->name('string.calculatorCombiner');
-Route::get('list-test', [CombinerController::class, 'generarCodigos']);
