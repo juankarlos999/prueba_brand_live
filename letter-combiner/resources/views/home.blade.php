@@ -2,17 +2,18 @@
 @section('content')
 <div class="card">
     <div class="card-header">
+    <h3>Por favor ingrese los siguientes datos</h3>
     </div>
     <div class="card-body">
         <form action="{{ route('string.calculatorCombiner') }}" method="post" enctype="multipart/form-data">
             @csrf
             <div class="row g-3 align-items-center">
                 <div class="col-auto">
-                    <label class="sr-only" for="inlineFormInput">Por favor ingrese las 12 letras</label>
+                    <label class="sr-only" for="inlineFormInput">lista de letras</label>
                     <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Ejemplo: MFJNERJNRFKV" name="letters">
                 </div>
                 <div class="col-auto">
-                    <label class="sr-only" for="inlineFormInputGroup">Ingrese el numero de campos de la palabra</label>
+                    <label class="sr-only" for="inlineFormInputGroup">Numero de campos de la palabra</label>
                     <div class="input-group mb-2">
                         <input type="number" class="form-control" id="inlineFormInputGroup" name="lengthWord">
                     </div>
