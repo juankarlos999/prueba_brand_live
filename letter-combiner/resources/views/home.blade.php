@@ -50,11 +50,13 @@
                     </thead>
                     <tbody>
                         <tr>
+                            @isset($arrPassResult)
                             @foreach($arrPassResult as $value)
                             <th scope="row">1</th>
                             <td>{{ $value }}</td>
                         </tr>
                         @endforeach
+                        @endisset
                     </tbody>
                 </table>
             </div>
