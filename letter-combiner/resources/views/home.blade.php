@@ -51,11 +51,11 @@
                     <tbody>
                         <tr>
                             @isset($arrPassResult)
-                            @for ($i = 1; $i <= $numCombinations; $i++)
-                            <th scope="row">{{ $i }}</th>
-                            <td>{{ $arrPassResult[$i] }}</td>
+                            @foreach($arrPassResult as $value)
+                            <th scope="row">{{ $loop->iteration }}</th>
+                                <td>{{ $value }}</td>
                         </tr>
-                        @endfor
+                        @endforeach
                         @endisset
                     </tbody>
                 </table>
