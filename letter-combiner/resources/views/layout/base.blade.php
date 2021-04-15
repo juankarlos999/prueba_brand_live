@@ -29,6 +29,7 @@
 
         img {
             width: 12%;
+            margin: auto;
         }
 
         h1 {
