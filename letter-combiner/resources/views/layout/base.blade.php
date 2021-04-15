@@ -22,16 +22,13 @@
 
         header {
             box-shadow: -1px 17px 9px -12px rgba(0, 0, 0, 0.30);
+            background-color: #1693eb;
             margin-bottom: 20px;
             margin-top: 20px;
         }
 
         img {
             width: 12%;
-        }
-
-        nav {
-            background-color: #1693eb;
         }
 
         h1 {
