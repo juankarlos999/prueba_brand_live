@@ -23,6 +23,7 @@
         header {
             box-shadow: -1px 17px 9px -12px rgba(0, 0, 0, 0.30);
             margin-bottom: 20px;
+            margin-top: 20px;
         }
 
         img {
@@ -43,10 +44,8 @@
 <body>
     <div class="container">
         <header>
-            <nav>
-                <img src="/img/letters.svg"/>
-                <h1 class="display-5">COMBINADOR DE LETRAS</h1>
-            </nav>
+            <img src="/img/letters.svg" />
+            <h1 class="display-5">COMBINADOR DE LETRAS</h1>
         </header>
         @yield('content')
     </div>
